@@ -1,9 +1,11 @@
 # Demo:
 
-- `git clone https://github.com/sh-trilogy/render-data-with-JSON-endpoint`
-- Move into the folder
-- `npm i`
-- `npm start`
+```
+git clone https://github.com/sh-trilogy/render-data-with-JSON-endpoint
+cd render-data-with-JSON-endpoint
+npm i
+npm start
+```
 
 This [express server](./index.js) has two endpoints:
 
