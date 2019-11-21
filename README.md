@@ -1,5 +1,7 @@
 # Demo:
 
+Copy/paste into terminal within any folder
+
 ```
 git clone https://github.com/sh-trilogy/render-data-with-JSON-endpoint
 cd render-data-with-JSON-endpoint
