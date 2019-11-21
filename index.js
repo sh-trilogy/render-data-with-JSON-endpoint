@@ -3,6 +3,7 @@
 const express = require('express');
 const app = express();
 const data = require('./public/data.js');
+const PORT = 3000;
 
 app.use(express.static('public'));
 
