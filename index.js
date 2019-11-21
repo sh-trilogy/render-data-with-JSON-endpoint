@@ -2,16 +2,13 @@
 
 const express = require('express');
 const app = express();
-require('dotenv').config();
-const PORT = process.env.PORT;
+const data = require('./public/data.js');
 
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
   res.sendFile('index.html');
 });
-
-const data = require('./public/data.js');
 
 app.get('/api/data', (req, res) => {
   res.send(data);
